@@ -1,0 +1,18 @@
+Name = (input('Qual é o nome do seu personagem?'))
+Classe = (input('Qual classe deseja escolher?'))
+Lvl = int(input('Qual o nivel desejado?'))
+frç = int(input('Quanto de atributo de força?'))
+aglt = int(input('Quanto de atributo de velocidade?'))
+intg = int(input('Quanto de atributo de inteligencia?'))
+print(f'Nome do seu personagem: {Name}')
+print(f'Classe: {Classe}')
+print('='*20)
+print(f'Level: {Lvl}')
+print(f'Força:{frç}')
+print(f'Inteligencia:{intg}')
+print(f'Agilidade:{aglt}')
+print('='*20)
+Somadeatributos = frç + intg + aglt
+print(f'Atributos totais: {Somadeatributos}')
+lvlxatri = Somadeatributos * Lvl
+print(f'Poder total: {lvlxatri}')
